@@ -11,16 +11,16 @@ int main(void){
         c+=1;
         scanf("%d", &b);
         if(b>a){
-            printf("%d>?", b);
+            printf("%d>?\n", b);
                 }
         else if(b<a){
-            printf("%d<?", b);
+            printf("%d<?\n", b);
         }
         else{
-            printf("%d==?", b);
+            printf("%d==?\n", b);
             } 
     }while(a != b);
 
-    printf("\n%d", c);
+    printf("%d\n", c);
     return 0;
 }
